@@ -79,7 +79,7 @@
 
 ### 2. 개발 환경 편하게 쓰기
   - `npm i -D ts-node`
-      - ts를 js로 변환하지 않고 실행하게 하는 라이브러리
+      - TypeScript를 JavaScript로 변환하여 사전 컴파일 없이 Node.js에서 TypeScript를 직접 실행할 수 있도록 하는 라이브러리
   - `package.json` 추가
       - scripts.dev: "ts-node src/app.ts"
   - `npm run dev` 확인

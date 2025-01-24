@@ -1,0 +1,22 @@
+{
+  "name": "0088_codeit_ts_express",
+  "version": "1.0.0",
+  "description": "0088_codeit_ts_express",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
